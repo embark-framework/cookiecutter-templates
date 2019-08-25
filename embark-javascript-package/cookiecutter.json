@@ -1,6 +1,7 @@
 {
-  "project_name": "Package scaffold",
+  "project_name": "Package Scaffold",
   "repo_name": "embark-{{cookiecutter.project_name.lower().strip().replace('embark ', '').replace(' ', '-').replace(':', '_').replace('!', '_')}}",
-  "test_name": "{{ cookiecutter.repo_name.replace('embark-', '').replace('-', '_') }}"
+  "test_file_name": "{{ cookiecutter.repo_name.replace('embark-', '').replace('-', '_') }}_test.js",
+  "main_class_name": "{{ cookiecutter.project_name.replace('Embark ', '').replace(' ', '') }}"
 }
 
