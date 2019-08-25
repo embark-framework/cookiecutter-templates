@@ -1,0 +1,6 @@
+{
+  "project_name": "Package scaffold",
+  "repo_name": "embark-{{cookiecutter.project_name.lower().strip().replace('embark ', '').replace(' ', '-').replace(':', '_').replace('!', '_')}}",
+  "test_name": "{{ cookiecutter.repo_name.replace('embark-', '').replace('-', '_') }}"
+}
+

@@ -1,0 +1,9 @@
+/* globals describe, it */
+const assert = require('assert').strict;
+
+describe('{{ cookiecutter.project_name }}', () => {
+  it('should have tests', (done) => {
+    assert(false, 'No tests yet on {{ cookiecutter.repo_name }}');
+  });
+});
+
